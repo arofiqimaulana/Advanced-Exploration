@@ -2,7 +2,7 @@
 
 ## Research Dataset
 1. Google Datasets (https://research.google/tools/datasets/)
-2. Kaggle Competition (https://www.kaggle.com/datasets)
+2. Kaggle Competition (https://www.kaggle.com/datasets,https://github.com/Kaggle/kaggle-api)
 3. Tensorflow (https://www.tensorflow.org/resources/models-datasets)
 4. Machine Learning Repoitory (https://archive.ics.uci.edu/ml/machine-learning-databases/)
 
