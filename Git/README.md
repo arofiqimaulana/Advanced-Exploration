@@ -13,6 +13,10 @@ terdapat dua options
 5. .gitignore adalah fasilitas dari git yang memungkinkan mengabaikan file yang tidak kita inginkan untuk di tambahkan ke repository
 6. master (di local) sedangkan origin/master (di repository)
 7. chekout adalah beralih dari satu branch ke branch lainnya
+8. untuk menggunakan ssh, ketikkan ssh-keygen di CMD dan cari di users/<username>/.ssh dan gunakan public key
+9. Rebase merupakan suatu workflow agar mengikuti fast forward merge daripada commit merge
+10. fast forward merge merupakan merge dari direct path
+11. commit merger merupakan merge dari bukan direct path (merge tapi membuat commit baru)
 
 ## Basic
 1. git add . #menambahkan semua file
@@ -20,6 +24,8 @@ terdapat dua options
 3. git commit -m "add file csv" #memberi catatan perubahan
 4. git push origin #update perubahan yang terjadi di local ke repository
 5. git pull origin master #update perubahan file yang terjadi di repositry ke local
+6. git commit -am "add file csv" # add and modify sekaligus
+
 
 ## Editting
 1. git rm file1.csv #menghapus file.csv
@@ -36,11 +42,12 @@ terdapat dua options
 
 
 ## Branch
-1. git branch adromeda #membuat branch baru bernama andromeda
-2. git checkout andromeda #masuk ke branch andromeda
-3. git branch -m andromeda milkyway #mengubah nama branch dari yang awalnya andromeda menjadi milkyway
-4. git checkout -b andromeda #membuat branch andromeda dan sekaligus checkout
-5. git branch -d andromeda #menghapus branch andromeda
-6. git merge andromeda #merge branch andromeda ke active branch
-
+1. git branch #menampilkan list branch
+2. git branch adromeda #membuat branch baru bernama andromeda
+3. git checkout andromeda #masuk ke branch andromeda
+4. git branch -m andromeda milkyway #mengubah nama branch dari yang awalnya andromeda menjadi milkyway
+5. git checkout -b andromeda #membuat branch andromeda dan sekaligus checkout
+. git branch -d andromeda #menghapus branch andromeda
+7. git merge andromeda #merge branch andromeda ke active branch
+8. git rebase master #melakukan rebase terhadap master
 
