@@ -26,7 +26,7 @@
 3. library(help="AppliedPredictiveModeling")
 
 ## API
-1. Covid19 (https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest)
+1. Covid19 (https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest,https://covid-19-apis.postman.com/)
 
 
 # Refference
