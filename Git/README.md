@@ -60,3 +60,7 @@ terdapat dua options
 2. git push origin master --tags # push semua tag ke github release/tags
 3. git reset HEAD^1 #Remove 1 level commit sebelumnya
 4. git reflog # show history
+
+
+### Refference
+Git Complete: The definitive, step-by-step guide to Git (udemy.com)
