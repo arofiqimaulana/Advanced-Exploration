@@ -26,6 +26,7 @@ terdapat dua options
 5. git pull origin master #update perubahan file yang terjadi di repositry ke local
 6. git commit -am "add file csv" # add and modify sekaligus
 7. git log --oneline --decorate --graph --all # Melihat perjalanan commit
+8. git help # Melihat docs git
 
 
 ## Editting
@@ -57,3 +58,5 @@ terdapat dua options
 ## Advanced
 1. git push origin v-0.9-beta # push tags ke github release/tags
 2. git push origin master --tags # push semua tag ke github release/tags
+3. git reset HEAD^1 #Remove 1 level commit sebelumnya
+4. git reflog # show history
