@@ -25,6 +25,7 @@ terdapat dua options
 4. git push origin #update perubahan yang terjadi di local ke repository
 5. git pull origin master #update perubahan file yang terjadi di repositry ke local
 6. git commit -am "add file csv" # add and modify sekaligus
+7. git log --oneline --decorate --graph --all # Melihat perjalanan commit
 
 
 ## Editting
@@ -39,6 +40,8 @@ terdapat dua options
 9. git help log #Commit History
 10. git config --global alias.hist "log --all --graph --decorate --oneline" #git alias, editing ada di file .gitconfig
 11. git difftool #membandingkan perbedaan di working directory vs staging area
+12. git stash files1.html # Mengabaikan perubahan
+13. git tag -v1.5 # Memberikan label di suatu commit (biasanya digunakan untuk release version)
 
 
 ## Branch
@@ -47,7 +50,10 @@ terdapat dua options
 3. git checkout andromeda #masuk ke branch andromeda
 4. git branch -m andromeda milkyway #mengubah nama branch dari yang awalnya andromeda menjadi milkyway
 5. git checkout -b andromeda #membuat branch andromeda dan sekaligus checkout
-. git branch -d andromeda #menghapus branch andromeda
+6. git branch -d andromeda #menghapus branch andromeda
 7. git merge andromeda #merge branch andromeda ke active branch
 8. git rebase master #melakukan rebase terhadap master
 
+## Advanced
+1. git push origin v-0.9-beta # push tags ke github release/tags
+2. git push origin master --tags # push semua tag ke github release/tags
