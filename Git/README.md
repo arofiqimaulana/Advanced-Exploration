@@ -27,6 +27,7 @@ terdapat dua options
 6. git commit -am "add file csv" # add and modify sekaligus
 7. git log --oneline --decorate --graph --all # Melihat perjalanan commit
 8. git help # Melihat docs git
+9. git remote set-url git@github.com:arofiqimaulana/Statistics.git # if git always ask username & password 
 
 
 ## Editting
