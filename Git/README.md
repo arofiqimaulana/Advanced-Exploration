@@ -44,6 +44,7 @@ terdapat dua options
 11. git difftool #membandingkan perbedaan di working directory vs staging area
 12. git stash files1.html # Mengabaikan perubahan
 13. git tag -v1.5 # Memberikan label di suatu commit (biasanya digunakan untuk release version)
+14. git submodule add https://github.com/arofiqimaulana/Scrab-Table-on-Website #embed other repo
 
 
 ## Branch
