@@ -45,6 +45,7 @@ terdapat dua options
 12. git stash files1.html # Mengabaikan perubahan
 13. git tag -v1.5 # Memberikan label di suatu commit (biasanya digunakan untuk release version)
 14. git submodule add https://github.com/arofiqimaulana/Scrab-Table-on-Website #embed other repo
+15. git submodule update --remote #menyamakan perubahan yang terjadi di submodule
 
 
 ## Branch
