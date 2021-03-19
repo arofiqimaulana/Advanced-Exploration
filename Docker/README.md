@@ -15,17 +15,14 @@ Docker container bisa dikatakan sebagai sebuah folder, dimana docker container i
 
 Kita dapat membuat banyak docker container dari 1 docker images. Docker container ini nantinya dapat dibuild sehingga akan menghasilkan sebuah docker images, dan docker images yang dihasilkan dari docker container ini dapat kita gunakan kembali untuk membuat docker container yang baru.
 
-4. Docker Compose
+4. Docker Compose <br>
 Docker-compose adalah sebuah alat dari docker yang digunakan untuk mendefinisikan dan menjalankan aplikasi multi kontainer. Dengan docker-compose kita bisa menjalankan kontainer 1 dengan yang lainya dengan 1 perintah . Docker-compose juga menggunakan yaml file untuk menyimpan konfigurasi dari service yang dibuat.
 
-
-
 ## Basic Command
-- docker ps # melihat container yang lagi berjalan
-- docker ps -a # melihat semua list container yang dimiliki
-- docker image ls # melihat list image 
-- docker container ls # melihat list container 
-
+* ```docker ps``` # melihat container yang lagi berjalan
+* ```docker ps -a``` # melihat semua list container yang dimiliki
+* ```docker image ls``` # melihat list image 
+* ```docker container ls``` # melihat list container 
 
 ## Refference
 1. https://rizkimufrizal.github.io/belajar-docker/
