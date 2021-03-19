@@ -1,3 +1,6 @@
 [submodule "Docker/Install-Jupyter-Notebook-on-Docker"]
 	path = Docker/Install-Jupyter-Notebook-on-Docker
 	url = https://github.com/arofiqimaulana/Install-Jupyter-Notebook-on-Docker
+[submodule "Docker/Install-Airflow-on-Docker"]
+	path = Docker/Install-Airflow-on-Docker
+	url = https://github.com/arofiqimaulana/Install-Airflow-on-Docker
