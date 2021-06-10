@@ -3,3 +3,4 @@ Merupakan merupakan kegiatan yang dilakukan untuk mengambil data tertentu secara
 
 - [Scrap tabel di suatu website](https://github.com/arofiqimaulana/Scrab-Table-on-Website)
 - [Facebook Scraping](https://github.com/arofiqimaulana/facebook-scraping)
+- [Other Web Scraping](https://github.com/arofiqimaulana/Web-Scraping)
