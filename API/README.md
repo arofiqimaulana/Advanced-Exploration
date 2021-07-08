@@ -7,3 +7,4 @@ Dalam bidang data analytics, penggunaan API sangat sering digunakan karena API t
 Beberapa penggunaan API yang sudah saya lakukan adalah
 
 - [API Trello](https://github.com/arofiqimaulana/grab-trello-data-via-api)
+- [API Google Analytics](https://github.com/arofiqimaulana/Grab-Google-Analytics-Data-Via-API)
