@@ -68,3 +68,7 @@ for index,row in df.iterrows():
     criteria = {"userid": row["userid"]}
 
     result = collection.update_one(criteria, {"$set": {"is_valuable": status_value}}, upsert=True)
+
+# insert many
+data_dict = df.to_dict("records")
+result = collection.insert_many(data_dict)
