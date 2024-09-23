@@ -1,4 +1,4 @@
-# MongoDB - Panduan Umum
+# MongoDB
 
 ## Pendahuluan
 MongoDB adalah database NoSQL yang berorientasi pada dokumen, dirancang untuk skalabilitas, fleksibilitas, dan ketersediaan tinggi. Alih-alih menggunakan tabel dan baris seperti di database relasional, MongoDB menyimpan data dalam bentuk dokumen yang mirip JSON, sehingga lebih mudah untuk menyimpan dan mengelola data yang tidak terstruktur.
@@ -6,20 +6,6 @@ MongoDB adalah database NoSQL yang berorientasi pada dokumen, dirancang untuk sk
 ## Daftar Isi
 - [Fitur Utama](#fitur-utama)
 - [Konsep Dasar](#konsep-dasar)
-- [Instalasi](#instalasi)
-- [Perintah Dasar](#perintah-dasar)
-- [Operasi CRUD](#operasi-crud)
-  - [Membuat Data](#membuat-data)
-  - [Membaca Data](#membaca-data)
-  - [Memperbarui Data](#memperbarui-data)
-  - [Menghapus Data](#menghapus-data)
-- [Indexing](#indexing)
-- [Replikasi](#replikasi)
-- [Sharding](#sharding)
-- [Aggregation Framework](#aggregation-framework)
-- [Kasus Penggunaan](#kasus-penggunaan)
-- [Sumber Daya](#sumber-daya)
-
 ---
 
 ## Fitur Utama
@@ -34,7 +20,6 @@ MongoDB adalah database NoSQL yang berorientasi pada dokumen, dirancang untuk sk
 
 ## Konsep Dasar
 
-### 1. **Dokumen**:
    Dokumen adalah unit dasar data di MongoDB, mirip dengan baris dalam database relasional. Dokumen disimpan dalam format BSON (Binary JSON) dan dapat berisi pasangan key-value, array, dan dokumen bersarang.
 
    Contoh dokumen:
@@ -54,3 +39,4 @@ Database di MongoDB adalah kumpulan koleksi. Setiap database menyimpan koleksiny
 
 4. _id:
 Setiap dokumen memiliki field _id yang unik, berfungsi sebagai primary key. MongoDB akan secara otomatis menghasilkan ObjectId jika _id tidak disediakan.
+
