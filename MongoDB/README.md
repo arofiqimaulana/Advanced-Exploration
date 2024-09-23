@@ -19,7 +19,7 @@ MongoDB adalah database NoSQL yang berorientasi pada dokumen, dirancang untuk sk
 ---
 
 ## Konsep Dasar
-
+1. Dokumen
    Dokumen adalah unit dasar data di MongoDB, mirip dengan baris dalam database relasional. Dokumen disimpan dalam format BSON (Binary JSON) dan dapat berisi pasangan key-value, array, dan dokumen bersarang.
 
    Contoh dokumen:
